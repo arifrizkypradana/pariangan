@@ -92,13 +92,6 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">OBJECTID</th>\
-                        <td>' + (feature.properties['OBJECTID'] !== null ? autolinker.link(feature.properties['OBJECTID'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Keterangan'] !== null ? autolinker.link(feature.properties['Keterangan'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">NamaBGN</th>\
                         <td>' + (feature.properties['NamaBGN'] !== null ? autolinker.link(feature.properties['NamaBGN'].toLocaleString()) : '') + '</td>\
                     </tr>\
